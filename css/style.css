@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  pad: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 70px;
+  line-height: 70px;
+  color: grey;
+}
+
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  height: 40px;
+}
+
+ul li {
+  display: inline;
+  padding: 15px;
+}
+
+.nav_dx ul li:last-child {
+  border-radius: 20px;
+  background-color: blueviolet;
+  padding: 15px 20px;
+  color: white;
+}
+
+.nav_dx i {
+  font-size: 0.5em;
+}
+
+.with-dropdown {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible;
+}
+
+.dropdown {
+  width: 100px;
+  border: 1px solid black;
+  text-align: center;
+}
